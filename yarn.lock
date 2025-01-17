@@ -2814,6 +2814,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@langchain/ollama@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@langchain/ollama@npm:0.1.4"
+  dependencies:
+    ollama: ^0.5.9
+    uuid: ^10.0.0
+  peerDependencies:
+    "@langchain/core": ">=0.2.21 <0.4.0"
+  checksum: c8b216458c4f0d0e18b8ec365587d3bb3d75230ab2067cbc84c532a6c590167bd8a6539a44b2f6d6bba9d18ae796f834b50aae3a121e38bb08d05d1364118b06
+  languageName: node
+  linkType: hard
+
 "@langchain/openai@npm:^0.0.14, @langchain/openai@npm:~0.0.10, @langchain/openai@npm:~0.0.12":
   version: 0.0.14
   resolution: "@langchain/openai@npm:0.0.14"
@@ -4897,6 +4909,7 @@ __metadata:
     "@emotion/styled": ^11.11.0
     "@langchain/community": ^0.0.27
     "@langchain/core": ^0.1.26
+    "@langchain/ollama": ^0.1.4
     "@langchain/openai": ^0.0.14
     "@langchain/weaviate": ^0.0.1
     "@types/dompurify": ^3.0.5
@@ -10021,6 +10034,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ollama@npm:^0.5.9":
+  version: 0.5.11
+  resolution: "ollama@npm:0.5.11"
+  dependencies:
+    whatwg-fetch: ^3.6.20
+  checksum: 9b55a85f9771e81527b66f169329ed5b3d92de2af495f26a00bf4e9d3f224614ffda6a047135baf4bc9960a122fb18656613b733e5e37db02195ebaf0fba79b4
+  languageName: node
+  linkType: hard
+
 "once@npm:^1.3.0, once@npm:^1.4.0":
   version: 1.4.0
   resolution: "once@npm:1.4.0"
@@ -12805,6 +12827,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"uuid@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "uuid@npm:10.0.0"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 4b81611ade2885d2313ddd8dc865d93d8dccc13ddf901745edca8f86d99bc46d7a330d678e7532e7ebf93ce616679fb19b2e3568873ac0c14c999032acb25869
+  languageName: node
+  linkType: hard
+
 "uuid@npm:^9.0.0, uuid@npm:^9.0.1":
   version: 9.0.1
   resolution: "uuid@npm:9.0.1"
@@ -12925,6 +12956,13 @@ __metadata:
   dependencies:
     iconv-lite: 0.6.3
   checksum: f75a61422421d991e4aec775645705beaf99a16a88294d68404866f65e92441698a4f5b9fa11dd609017b132d7b286c3c1534e2de5b3e800333856325b549e3c
+  languageName: node
+  linkType: hard
+
+"whatwg-fetch@npm:^3.6.20":
+  version: 3.6.20
+  resolution: "whatwg-fetch@npm:3.6.20"
+  checksum: c58851ea2c4efe5c2235f13450f426824cf0253c1d45da28f45900290ae602a20aff2ab43346f16ec58917d5562e159cd691efa368354b2e82918c2146a519c5
   languageName: node
   linkType: hard
 
