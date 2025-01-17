@@ -1,3 +1,6 @@
+This is a clone of https://github.com/langchain-ai/chat-langchainjs for study purposes.
+Main goals of this study include: running locally and updating to use different sources.
+
 # 🦜️🔗 Chat LangChain.js
 
 This repo is an implementation of a locally hosted chatbot specifically focused on question answering over the [LangChain documentation](https://langchain.readthedocs.io/en/latest/).
